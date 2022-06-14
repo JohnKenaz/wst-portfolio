@@ -1,0 +1,176 @@
+html
+{
+    height: 100%;
+}
+body
+{
+    background-image: url('img/bg.jpg');
+    background-size: cover;
+    min-height: 100%;
+}
+#navbar
+{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.884),rgba(128, 128, 128, 0.247));
+    color: white;
+}
+.nav-link
+{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+.nav-item
+{
+    margin: 7px;
+    text-align: center;
+}
+.dropdown-item
+{
+ color: white;
+}
+.nav-item
+{
+ border: 2px solid transparent;
+}
+.nav-item:hover
+{
+    border-radius: 20px;
+    border: 2px solid rgb(255, 255, 255);
+}
+.brand
+{
+    color: white;
+    font-size: 30px;
+}
+.navbar-brand :hover
+{
+    color: rgb(255, 136, 0);
+}
+.jumbotron
+{
+    margin-top: 50px;
+    background-color: rgba(0, 0, 0, 0);
+
+}
+.btn
+{
+    background-color: rgba(255, 10, 10, 0.582);
+    color: white;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    padding-top: 10px;
+}
+.btn:hover
+{
+    border: 2px solid red;
+    color: white;
+    background-color: transparent;
+}
+#container
+{
+    background: rgba(0, 0, 0, 0.411);
+}
+.nav-link
+{
+    color: white;
+}
+
+.list-group-item
+{
+    background-color: rgba(10, 1, 19, 0.212);
+    color:white;
+}
+
+#img
+{
+ border-radius: 50%;
+ border: 3px solid rgb(255, 255, 255);
+}
+
+#img2
+
+{
+    border-radius: 100px 10px 100px 10px;
+    opacity: 90%;
+    border: 3px solid rgb(255, 255, 255);
+}
+
+#sticker
+{
+    margin-left: 10px;
+    margin-top: -15px;
+}
+
+#font
+{
+    font-family:sans-serif;
+}
+#pfont
+{
+    font-family:sans-serif;
+}
+
+
+.footer
+{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.274),rgb(0, 0, 0));
+    color: white;
+    position: sticky;
+    top: 100%;
+    margin-top: auto;
+    padding: 5px;
+}
+@media(min-width: 221.98px) and (max-width: 1199.98px)
+{
+    #n,#n2,#btn2{
+        justify-content: center;
+        text-align: center;
+        display: flex;
+    }
+}
+@media(max-width: 991.98px)
+{
+    #img2
+    {
+        margin-bottom: 20px;
+    }
+}
+
+@media(max-width: 1199px)
+{
+    .carousel-caption
+    {
+      margin-top: 30px;
+      margin-bottom: -10px;
+    }
+}
+@media(max-width: 991.98px)
+{
+    .carousel-caption
+    {
+        padding: 2px;
+    }
+    #font
+    {
+      font-size: 20px;
+    }
+    #pfont
+    {
+      font-size: 15px;
+    }
+}
+
+@media(max-width: 767px)
+{
+    .carousel-caption
+    {
+        padding: 0px;
+    }
+    #font
+    {
+      font-size: 18px;
+    }
+    #pfont
+    {
+      font-size: 13px;
+    }
+}
